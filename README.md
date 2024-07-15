@@ -1,6 +1,6 @@
 # Tik-tac-toe
 This project is a classic implementation of the popular Tic-Tac-Toe game, designed to be simple yet fully functional.
-# HTML code
+#  code
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,8 +45,6 @@ This project is a classic implementation of the popular Tic-Tac-Toe game, design
   </body>
 </html>
 
-
-# Js code
 
 console.log("Welcome to Tic Tac Toe")
 let music = new Audio("music.mp3")
@@ -114,8 +112,6 @@ reset.addEventListener('click', ()=>{
     document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px"
 })
-
-# CSS code
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
 *{
